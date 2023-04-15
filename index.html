@@ -4,79 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script.js"></script>
     <title>Ambika Enterprises</title>
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light neu-navbar">
-          <a class="navbar-brand neu-navbar-brand" href="#"
-            >Ambika Enterprises</a
-          >
-          <button
-            class="navbar-toggler neu-navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item neu-nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item neu-nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown neu-nav-item">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div
-                  class="dropdown-menu neu-dropdown-menu"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <a class="dropdown-item neu-dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item neu-dropdown-item" href="#"
-                    >Another action</a
-                  >
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item neu-dropdown-item" href="#"
-                    >Something else here</a
-                  >
-                </div>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input
-                class="form-control mr-sm-2 neu-search"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn my-2 my-sm-0 neu-search-button" type="submit">
-                Search
-              </button>
-            </form>
+    <header>
+      <section class="navBar">
+        <div class="nav">
+          <div class="navLogo maintitle neumorphic outset text-white">
+            <img src="./Ambika Enterprises Transparent Logo.png" alt="Ambika Enterprises Logo" width="150" height="30">
+            <i onclick="tog();" class="fa fa-bars"></i>
           </div>
-        </nav>
-      </div>
-    </div>
+  
+          <div class="navItems" id="navItems">
+            <div class="home"><a href="index.html">Home</a></div>
+            <div class="categories"><a href="categories.html">About Us</a></div>
+            <div class="products"><a href="products.html">Products</a></div>
+            <div class="contact"><a href="contact.html">Contact Us</a></div>
+          </div>
+        </div>
+      </section>
+    </header>
+
   </body>
 </html>
